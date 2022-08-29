@@ -114,12 +114,17 @@ body {
     align-items: center;
     align-content: center;
     max-width: 130rem;
+    border-radius: 1rem 1rem 1rem 1rem;
   }
   .img-box {
     min-height: 100%;
     min-width: 100%;
     grid-column: 2/3;
     background-repeat: no-repeat;
+    background-image: linear-gradient(to right, hsla(277deg, 65%, 31%, 0.6), hsla(277deg, 65%, 31%, 0.6)), url(images/image-header-desktop.jpg);
+    background-size: 100%;
+    border-radius: 0px 1rem 1rem 0px;
+    background-size: cover;
   }
   .content {
     grid-row: 1/2;
